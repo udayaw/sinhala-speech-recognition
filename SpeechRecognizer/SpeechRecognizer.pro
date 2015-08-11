@@ -9,12 +9,12 @@ CONFIG -= app_bundle
 TARGET = qt_console_app
 TEMPLATE = app
 
-INCLUDEPATH += "..\pocketsphinx\include" \
-"..\sphinxbase\include" \
-"..\sphinxbase\include\win32"
+INCLUDEPATH += "E:\Data\SLIIT\Fourth Year - 1st Semester\CDAP-I\AppLibraries\cmusphinx\built\pocketsphinx\include" \
+"E:\Data\SLIIT\Fourth Year - 1st Semester\CDAP-I\AppLibraries\cmusphinx\built\sphinxbase\include" \
+"E:\Data\SLIIT\Fourth Year - 1st Semester\CDAP-I\AppLibraries\cmusphinx\built\sphinxbase\include\win32"
 
-LIBS += "..\sphinxbase\lib\Debug\*.lib" \
-"..\pocketsphinx\lib\Debug\*.lib"
+LIBS += "E:\Data\SLIIT\Fourth Year - 1st Semester\CDAP-I\AppLibraries\cmusphinx\built\sphinxbase\lib\Debug\*.lib" \
+"E:\Data\SLIIT\Fourth Year - 1st Semester\CDAP-I\AppLibraries\cmusphinx\built\pocketsphinx\lib\Debug\*.lib"
 
 
 

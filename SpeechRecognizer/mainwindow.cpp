@@ -22,9 +22,9 @@ MainWindow::MainWindow(QWidget *parent) :
     languageModelPath = nullptr;
     dictionaryPath = nullptr;
 
-    ui->leHmmDir->setText("E:/Data/SLIIT/Fourth Year - 1st Semester/CDAP-I/AppLibraries/cmusphinx/models/sin-sl-v2/AcousticModel/model_parameters/sinhala.ci_cont");
-    ui->leLanguageModel->setText("E:/Data/SLIIT/Fourth Year - 1st Semester/CDAP-I/AppLibraries/cmusphinx/models/sin-sl-v2/LanguageModel/sinhala.lm");
-    ui->leDictionary->setText("E:/Data/SLIIT/Fourth Year - 1st Semester/CDAP-I/AppLibraries/cmusphinx/models/sin-sl-v2/Dictionary/sinhala.dic");
+    ui->leHmmDir->setText("../models/sin-sl-v2/sinhala.ci_cont");
+    ui->leLanguageModel->setText("../models/sin-sl-v2/sinhala.lm");
+    ui->leDictionary->setText("../models/sin-sl-v2/sinhala.dic");
 
 
 
